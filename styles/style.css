@@ -252,14 +252,13 @@ h3{
    
 }
 
-#civil,#corporatecommercial,#criminal{
+#civil,#corporatecommercial,#criminal,#familylaw,#immigration,#wills,#personal{
     width: 50%;
     margin: 5% auto;
 }
 
-#house, #books,#building,#justice{
+#house, #books,#building,#justice,#familiespic, #plane,#paper,#injured{
     display: block;
     margin: 0 auto 3%; 
     width: 50%;
-
 }
