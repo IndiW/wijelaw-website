@@ -25,6 +25,7 @@ p{
 }
 
 .navbar li{
+    font-size: 16px;
     float: right;
     border-right: 1px solid #bbb;
 }
@@ -46,9 +47,12 @@ p{
 #toronto{
     height: 75%;
     width:100%;
+    /*
     filter: blur(2px);
     -webkit-filter: blue(2px);
+    */
     opacity: 0.9;
+    
     box-shadow: 0 4px 8px 0 hsla(0,0%,0%,0.2);
 }
 
@@ -65,8 +69,9 @@ p{
     transform: translate(-50%,-50%);
     z-index: 2;
     line-height: 70%;
-    text-shadow: 0 0 2px white;
-    font-size: 8vw;
+    text-shadow: 0 1 2px black;
+    font-size: 7vw;
+    font-family: "Times New Roman";
     
 }
 
@@ -262,3 +267,7 @@ h3{
     margin: 0 auto 3%; 
     width: 50%;
 }
+
+ul li{
+    font-size:20px;
+   }
