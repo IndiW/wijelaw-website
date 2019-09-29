@@ -111,10 +111,40 @@ h3{
     
 }
 
+.tooltip{
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black;*/
+}
+
+.tooltip .tooltiptext{
+    visibility: hidden;
+    /*width: 120px;*/
+    background-color:#333;
+    color: #fff;
+    text-align: left;
+    padding: 5px 5px;
+    /*border-radius: 6px;*/
+
+    /* position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext{
+    opacity: 1;
+    visibility: visible;
+}
+
 .lawyers{
     text-align: center;
     display: grid;
-    grid-template-rows: 0.5fr 1fr 1fr 0.7fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.7fr;
     grid-row-gap: 5%;
 
 }
@@ -124,24 +154,27 @@ h3{
     padding-bottom: 5px;
 }
 
-#neildiv, #janakidiv{
+#neildiv, #janakidiv, #radhidiv, #tinadiv{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
     grid-column-gap: 2%;
-    
     justify-content: center;
     
 }
 
-#neiltext, #janakitext{
+#neiltext, #janakitext, #radhitext, #tinatext{
     text-align: left;
     grid-column-start: 3;
     grid-column-end: 4;
 }
 
-#neilpic, #janakipic{
+#neilpic, #janakipic, #radhipic, #tinapic{
     grid-column-start: 2;
     grid-column-end: 3;
+}
+
+#radhipic{
+    max-width: 55%;
 }
 
 #practice{
