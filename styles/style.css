@@ -144,7 +144,7 @@ h3{
 .lawyers{
     text-align: center;
     display: grid;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.7fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.7fr;
     grid-row-gap: 5%;
 
 }
@@ -154,7 +154,7 @@ h3{
     padding-bottom: 5px;
 }
 
-#neildiv, #janakidiv, #radhidiv, #tinadiv{
+#neildiv, #janakidiv, #radhidiv, #tinadiv,#inesdiv,#marthadiv, #vaanidiv{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
     grid-column-gap: 2%;
@@ -162,20 +162,26 @@ h3{
     
 }
 
-#neiltext, #janakitext, #radhitext, #tinatext{
+#neiltext, #janakitext, #radhitext, #tinatext, #marthatext, #inestext, #vaanitext{
     text-align: left;
     grid-column-start: 3;
     grid-column-end: 4;
 }
 
-#neilpic, #janakipic, #radhipic, #tinapic{
+#neilpic, #janakipic, #radhipic, #tinapic, #inespic, #marthapic,#vaanipic{
     grid-column-start: 2;
     grid-column-end: 3;
 }
 
 #radhipic{
-    max-width: 55%;
+    max-width: 180px;
 }
+
+#inespic, #vaanipic{
+    max-width: 180px;
+}
+
+
 
 #practice{
     padding-top:40px;
@@ -258,6 +264,26 @@ h3{
     text-align: center;
     margin-top: 10%;
     margin-bottom: 10%;
+}
+
+.reviews{
+    text-align:center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+
+}
+/*
+.reviews_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5%;
+    justify-items: center;
+}
+*/
+#nanreviewpic, #shavinireviewpic, #yinglireviewpic, #shalindreviewpic, #annreviewpic{
+
+    box-shadow: 0 4px 8px 0 hsla(0,0%,0%,0.2);
+    max-width: 50%;
 }
 
 
