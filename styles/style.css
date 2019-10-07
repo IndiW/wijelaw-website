@@ -144,8 +144,8 @@ h3{
 .lawyers{
     text-align: center;
     display: grid;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.7fr;
-    grid-row-gap: 5%;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.3fr;
+    grid-row-gap: 3%;
 
 }
 
